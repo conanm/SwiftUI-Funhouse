@@ -11,6 +11,12 @@
 		3F14C67C2B53EF690070D8B0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F14C67B2B53EF690070D8B0 /* ContentView.swift */; };
 		3F14C67E2B53EF6A0070D8B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F14C67D2B53EF6A0070D8B0 /* Assets.xcassets */; };
 		3F14C6812B53EF6A0070D8B0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F14C6802B53EF6A0070D8B0 /* Preview Assets.xcassets */; };
+		3F14C6882B53F3AA0070D8B0 /* ChaosLinesShader.metal in Sources */ = {isa = PBXBuildFile; fileRef = 3F14C6872B53F3AA0070D8B0 /* ChaosLinesShader.metal */; };
+		3F14C68A2B53FA820070D8B0 /* BasicShader.metal in Sources */ = {isa = PBXBuildFile; fileRef = 3F14C6892B53FA820070D8B0 /* BasicShader.metal */; };
+		3F14C68C2B53FAA00070D8B0 /* ShaderTesterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F14C68B2B53FAA00070D8B0 /* ShaderTesterView.swift */; };
+		3F1997282B5553F400B32737 /* GlobeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1997272B5553F400B32737 /* GlobeView.swift */; };
+		3F19972A2B55540300B32737 /* DistortedViewShader.metal in Sources */ = {isa = PBXBuildFile; fileRef = 3F1997292B55540300B32737 /* DistortedViewShader.metal */; };
+		3F19972C2B556AA100B32737 /* DistortedText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F19972B2B556AA100B32737 /* DistortedText.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		3F14C67B2B53EF690070D8B0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3F14C67D2B53EF6A0070D8B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F14C6802B53EF6A0070D8B0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3F14C6872B53F3AA0070D8B0 /* ChaosLinesShader.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = ChaosLinesShader.metal; sourceTree = "<group>"; };
+		3F14C6892B53FA820070D8B0 /* BasicShader.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = BasicShader.metal; sourceTree = "<group>"; };
+		3F14C68B2B53FAA00070D8B0 /* ShaderTesterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShaderTesterView.swift; sourceTree = "<group>"; };
+		3F1997272B5553F400B32737 /* GlobeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobeView.swift; sourceTree = "<group>"; };
+		3F1997292B55540300B32737 /* DistortedViewShader.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = DistortedViewShader.metal; sourceTree = "<group>"; };
+		3F19972B2B556AA100B32737 /* DistortedText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistortedText.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +65,12 @@
 			children = (
 				3F14C6792B53EF690070D8B0 /* swiftUI_stuffApp.swift */,
 				3F14C67B2B53EF690070D8B0 /* ContentView.swift */,
+				3F14C68B2B53FAA00070D8B0 /* ShaderTesterView.swift */,
+				3F1997272B5553F400B32737 /* GlobeView.swift */,
+				3F19972B2B556AA100B32737 /* DistortedText.swift */,
+				3F14C6872B53F3AA0070D8B0 /* ChaosLinesShader.metal */,
+				3F14C6892B53FA820070D8B0 /* BasicShader.metal */,
+				3F1997292B55540300B32737 /* DistortedViewShader.metal */,
 				3F14C67D2B53EF6A0070D8B0 /* Assets.xcassets */,
 				3F14C67F2B53EF6A0070D8B0 /* Preview Content */,
 			);
@@ -137,8 +155,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F19972A2B55540300B32737 /* DistortedViewShader.metal in Sources */,
+				3F1997282B5553F400B32737 /* GlobeView.swift in Sources */,
+				3F14C6882B53F3AA0070D8B0 /* ChaosLinesShader.metal in Sources */,
+				3F14C68C2B53FAA00070D8B0 /* ShaderTesterView.swift in Sources */,
 				3F14C67C2B53EF690070D8B0 /* ContentView.swift in Sources */,
+				3F19972C2B556AA100B32737 /* DistortedText.swift in Sources */,
 				3F14C67A2B53EF690070D8B0 /* swiftUI_stuffApp.swift in Sources */,
+				3F14C68A2B53FA820070D8B0 /* BasicShader.metal in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
